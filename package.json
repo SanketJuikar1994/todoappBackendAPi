@@ -1,0 +1,26 @@
+{
+  "name": "todoappbackendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanketJuikar1994/todoappBackendAPi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanketJuikar1994/todoappBackendAPi/issues"
+  },
+  "homepage": "https://github.com/SanketJuikar1994/todoappBackendAPi#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18"
+  }
+}
